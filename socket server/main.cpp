@@ -2,6 +2,7 @@
 #include <Ws2tcpip.h>
 #include <iostream>
 #include <string>
+#include <tchar.h>
 #pragma comment(lib, "ws2_32.lib")
 
 #define SERVER_ADDRESS "192.168.1.133" 
@@ -19,7 +20,7 @@ Disconnect.
 */
 
 
-int main() {
+int main(const int argc, const char* argv[]) {
 
 
 }
