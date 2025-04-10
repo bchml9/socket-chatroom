@@ -8,7 +8,7 @@
 #include <functional>
 
 #define PORT 27015
-#define HOST "5.14.250.26"
+#define HOST "192.168.1.133"
 #define BUFFER_SIZE 1024
 
 void receiveMessages(SOCKET client_sock) {
